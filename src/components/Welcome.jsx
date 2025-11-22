@@ -34,7 +34,7 @@ const setupTextHover = (container, type) => {
             const centerX = letterRect.left - rect.left + letterRect.width / 2;
 
             const distance = Math.abs(mouseX - centerX);
-            const intensity = Math.exp(-(distance * distance) / 5000);
+            const intensity = Math.exp(-(distance * distance) / 10000);
 
 
             const newWeight = min + intensity * (max - min);
