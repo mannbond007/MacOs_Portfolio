@@ -394,3 +394,14 @@ body {
         }
     }
 }
+
+/*This is for container of the Icons */
+.dock-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 18px;
+    height: 70px;
+    padding: 10px 10px;
+    backdrop-filter: blur(20px);
+}
