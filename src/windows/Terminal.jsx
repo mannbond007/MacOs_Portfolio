@@ -8,27 +8,27 @@ const Terminal = () => {
     return <>
         <div id="window-header">
             <WindowControls target="terminal"/>
-            <h2>Tech Stack</h2>
+            <h2 className='text-lg '>Tech Stack</h2>
         </div>
 
         <div className="techstack">
             <p>
-                <span className="font-bold">@Laila % </span>
+                <span className="font-bold">@Vivek % </span>
                 show tech stack
             </p>
             <div className="label">
-                <p className="w-32">Category</p>
-                <p >Technologies</p>
+                <p className="w-32 font-bold text-gray-900">Category</p>
+                <p className='text-gray-900 font-bold'>Technologies</p>
             </div>
 
-            <ul className="content">
+            <ul className="content ">
                 {techStack.map(({category, items}) => (
-                    <li key={category} className="flex items-center">
+                    <li key={category} className="flex gap-5 items-center">
                         <Check className="check" size={20}/>
                         <h1>{category}</h1>
-                        <ul>
+                        <ul className='ml-5 text-left'>
                             {items.map((item, index) => (
-                                <li key={index}>
+                                <li key={index} className=''>
                                     {item}
                                     {item < items.length - 1? "," : ""}
                                 </li>
