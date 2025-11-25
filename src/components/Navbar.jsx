@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return <nav>
         <div >
-            <img src="/images/logo.svg" alt="logo" />
+            <img className="w-[23px]" src="/images/apple_logo.png" alt="logo" />
             <p className="font-bold text-gray-800 text-lg">My | Portfolio</p>
 
             <ul>
