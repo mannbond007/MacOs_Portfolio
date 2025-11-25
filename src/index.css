@@ -153,7 +153,7 @@ body {
                 }
 
                 .content {
-                    @apply col-span-10 space-y-3;
+                    @apply col-span-10 space-y-3 left-0;
 
                     p {
                         @apply text-xs text-gray-500;
@@ -172,7 +172,8 @@ body {
     }
 
     #terminal {
-        @apply w-xl absolute top-32 left-1/12 bg-white shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden;
+      @apply w-xl absolute top-32 left-1/12 bg-gray-100 shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden;
+
 
         h2 {
             @apply font-bold text-sm text-center w-full;

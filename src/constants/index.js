@@ -118,7 +118,7 @@ const techStack = [
     },
     {
         category: "Database",
-        items: ["MongoDB", "PostgreSQL"],
+        items: ["MongoDB", "PostgreSQL" , "SQL"],
     },
     {
         category: "Dev Tools",
@@ -188,19 +188,39 @@ const photosLinks = [
 const gallery = [
     {
         id: 1,
-        img: "/images/gal1.png",
+        img: "/images/gal1.jpg",
     },
     {
         id: 2,
-        img: "/images/gal2.png",
+        img: "/images/gal2.jpg",
     },
     {
         id: 3,
-        img: "/images/gal3.png",
+        img: "/images/gal3.jpg",
     },
     {
         id: 4,
-        img: "/images/gal4.png",
+        img: "/images/gal4.jpg",
+    },
+     {
+        id: 4,
+        img: "/images/gal5.jpg",
+    },
+     {
+        id: 4,
+        img: "/images/gal6.jpg",
+    },
+     {
+        id: 4,
+        img: "/images/gal7.jpg",
+    },
+     {
+        id: 4,
+        img: "/images/gal8.jpg",
+    },
+     {
+        id: 4,
+        img: "/images/gal9.jpg",
     },
 ];
 
