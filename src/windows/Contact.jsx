@@ -3,6 +3,7 @@ import {socials} from "#constants/index.js";
 import {WindowControls} from "#components/index.js";
 
 
+
 const Contact = () => {
     return <>
     <div id="window-header">
@@ -14,7 +15,12 @@ const Contact = () => {
         className="w-30 h-30 object-cover overflow-hidden rounded-full"/>
         <h3>Let's Connect</h3>
         <p>Got an idea? A bug to squash? Or just wanna talk tech? I'm in.</p>
-        <p>example@gmail.com</p>
+        <div>
+         
+            <p>thetechzion@gmail.com</p>
+        </div>
+
+       
 
         <ul>
             {socials.map(({ id, bg, link, icon, text }) => (
